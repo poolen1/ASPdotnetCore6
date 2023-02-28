@@ -1,12 +1,16 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 
 namespace WorldCitiesAPI.Data.Models
 {
+    [Table("Cities")]
+    [Index(nameof(Name))]
+    [Index(nameof(Lat))]
+    [Index(nameof(Lon))]
     public class City
     {
         #region Properties
-
         /// <summary>
         /// Unique id and primary key for this city
         /// </summary>
