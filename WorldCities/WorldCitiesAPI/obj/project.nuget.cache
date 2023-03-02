@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PikhKrg/sfDqCuKws48lEYvf9AdNiTGF64hzlN4XJLJnlEAHbm2C9x4OPI5+XKYlH5MI0zOMXDJAYuG/8vJ++Q==",
+  "dgSpecHash": "gO6wydK6APYIhXjsLItl8IUR4zYZHsjo2TnCdoVhTW5GfaLkKj9ur8YnypwSUAYhsiPc4ZAp/2WUlACQGkua1A==",
   "success": true,
   "projectFilePath": "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI\\WorldCitiesAPI.csproj",
   "expectedPackageFiles": [
@@ -84,6 +84,7 @@
     "C:\\Users\\nicholas.poole\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\nicholas.poole\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\nicholas.poole\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\nicholas.poole\\.nuget\\packages\\system.linq.dynamic.core\\1.2.14\\system.linq.dynamic.core.1.2.14.nupkg.sha512",
     "C:\\Users\\nicholas.poole\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\nicholas.poole\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\nicholas.poole\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
