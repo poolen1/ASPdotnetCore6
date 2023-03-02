@@ -15,7 +15,9 @@ namespace WorldCitiesAPI.Data
             int pageIndex,
             int pageSize,
             string? sortColumn,
-            string? sortOrder)
+            string? sortOrder,
+            string? filterColumn,
+            string? filterQuery)
         {
             Data = data;
             PageIndex = pageIndex;
@@ -24,6 +26,8 @@ namespace WorldCitiesAPI.Data
             TotalPages = (int)Math.Ceiling(count / (double)pageSize);
             SortColumn = sortColumn;
             SortOrder = sortOrder;
+            FilterColumn = filterColumn;
+            FilterQuery = filterQuery;
         }
 
         #region Methods
@@ -33,8 +37,20 @@ namespace WorldCitiesAPI.Data
             int pageIndex,
             int pageSize,
             string? sortColumn = null,
-            string? sortOrder = null)
+            string? sortOrder = null,
+            string? filterColumn = null,
+            string? filterQuery = null)
         {
+            if (!string.IsNullOrEmpty(filterColumn)
+                && !string.IsNullOrEmpty(filterQuery)
+                && IsValidProperty(filterColumn))
+            {
+                source = source.Where(
+                    string.Format("{0}.StartsWith(@0)",
+                        filterColumn),
+                    filterQuery);
+            }
+
             var count = await source.CountAsync();
 
             if (!string.IsNullOrEmpty(sortColumn)
@@ -65,7 +81,9 @@ namespace WorldCitiesAPI.Data
                 pageIndex, 
                 pageSize,
                 sortColumn,
-                sortOrder);
+                sortOrder,
+                filterColumn,
+                filterQuery);
         }
 
         public static bool IsValidProperty(
@@ -133,6 +151,10 @@ namespace WorldCitiesAPI.Data
         public string? SortColumn { get; set; }
 
         public string? SortOrder { get; set; }
+
+        public string? FilterColumn { get; set; }
+
+        public string? FilterQuery { get; set; }
 
         #endregion
     }
