@@ -2,7 +2,7 @@
 <div class="city-edit">
   <h1>{{title}}</h1>
 
-  <p *ngIf="!city"><em>Loading...</em></p>
+  <p *ngIf="this.id && !city"><em>Loading...</em></p>
 
   <form [formGroup]="form" (ngSubmit)="onSubmit()">
 
@@ -24,10 +24,19 @@
              placeholder="Insert longitude" />
     </mat-form-field>
 
+    <mat-form-field *ngIf="countries">
+      <mat-select id="countryId" formControlName="countryId">
+        <mat-option value="">--- Select a Country ---</mat-option>
+        <mat-option *ngFor="let country of countries" [value]="country.id">
+          {{country.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
     <div>
       <button mat-flat-button color="primary"
               type="submit">
-        Save
+        {{ this.id ? "Save" : "Create"}}
       </button>
       <button mat-flat-button color="secondary"
               [routerLink]="['/cities']">
