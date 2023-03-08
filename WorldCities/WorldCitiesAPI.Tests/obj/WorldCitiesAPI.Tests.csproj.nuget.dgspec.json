@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI.Tests\\WorldCitiesAPI.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI.Tests\\WorldCitiesAPI.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI.Tests\\WorldCitiesAPI.Tests.csproj",
+        "projectName": "WorldCitiesAPI.Tests",
+        "projectPath": "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI.Tests\\WorldCitiesAPI.Tests.csproj",
+        "packagesPath": "C:\\Users\\nicholas.poole\\.nuget\\packages\\",
+        "outputPath": "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nicholas.poole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://everi.pkgs.visualstudio.com/acdd0cc8-fdff-4142-97e6-276dbe714fb2/_packaging/Cage/nuget/v3/index.json": {},
+          "https://everi.pkgs.visualstudio.com/acdd0cc8-fdff-4142-97e6-276dbe714fb2/_packaging/EveriKiosk_Release_Builds/nuget/v3/index.json": {},
+          "https://everi.pkgs.visualstudio.com/acdd0cc8-fdff-4142-97e6-276dbe714fb2/_packaging/NXCHW_Release/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI\\WorldCitiesAPI.csproj": {
+                "projectPath": "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI\\WorldCitiesAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI\\WorldCitiesAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI\\WorldCitiesAPI.csproj",
+        "projectName": "WorldCitiesAPI",
+        "projectPath": "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI\\WorldCitiesAPI.csproj",
+        "packagesPath": "C:\\Users\\nicholas.poole\\.nuget\\packages\\",
+        "outputPath": "C:\\Source_Practice\\ASPdotnetCore6\\WorldCities\\WorldCitiesAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\nicholas.poole\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://everi.pkgs.visualstudio.com/acdd0cc8-fdff-4142-97e6-276dbe714fb2/_packaging/Cage/nuget/v3/index.json": {},
+          "https://everi.pkgs.visualstudio.com/acdd0cc8-fdff-4142-97e6-276dbe714fb2/_packaging/EveriKiosk_Release_Builds/nuget/v3/index.json": {},
+          "https://everi.pkgs.visualstudio.com/acdd0cc8-fdff-4142-97e6-276dbe714fb2/_packaging/NXCHW_Release/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[4.5.3.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.2.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

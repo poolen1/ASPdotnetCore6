@@ -61,3 +61,8 @@ C:\Source_Practice\ASPdotnetCore6\WorldCities\WorldCitiesAPI\obj\Debug\net6.0\Wo
 C:\Source_Practice\ASPdotnetCore6\WorldCities\WorldCitiesAPI\obj\Debug\net6.0\WorldCitiesAPI.genruntimeconfig.cache
 C:\Source_Practice\ASPdotnetCore6\WorldCities\WorldCitiesAPI\obj\Debug\net6.0\ref\WorldCitiesAPI.dll
 C:\Source_Practice\ASPdotnetCore6\WorldCities\WorldCitiesAPI\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
+C:\Source_Practice\ASPdotnetCore6\WorldCities\WorldCitiesAPI\obj\Debug\net6.0\staticwebassets\msbuild.WorldCitiesAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Source_Practice\ASPdotnetCore6\WorldCities\WorldCitiesAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.WorldCitiesAPI.props
+C:\Source_Practice\ASPdotnetCore6\WorldCities\WorldCitiesAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WorldCitiesAPI.props
+C:\Source_Practice\ASPdotnetCore6\WorldCities\WorldCitiesAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WorldCitiesAPI.props
+C:\Source_Practice\ASPdotnetCore6\WorldCities\WorldCitiesAPI\obj\Debug\net6.0\staticwebassets.pack.json
